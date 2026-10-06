@@ -1,0 +1,6 @@
+.aider*
+.env
+.coverage
+docs/.obsidian
+__pycache__
+.idea
