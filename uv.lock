@@ -31,9 +31,13 @@ wheels = [
 name = "vps-management"
 version = "0.1.0"
 source = { editable = "." }
-dependencies = [
+
+[package.dev-dependencies]
+dev = [
     { name = "ruff" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "ruff", specifier = ">=0.16.10" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ruff", specifier = ">=0.16.10" }]
