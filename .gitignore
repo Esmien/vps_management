@@ -4,3 +4,4 @@
 docs/.obsidian
 __pycache__
 .idea
+.hermesignore
